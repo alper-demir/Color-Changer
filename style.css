@@ -1,0 +1,38 @@
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+#change-button{
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#container p{
+    font-size: 21px;
+}
+i{
+    color: #fff;
+}
+
+i:hover{
+    opacity: 0.8;
+}
+
+#info{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    display: none;
+}
