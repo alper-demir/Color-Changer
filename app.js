@@ -7,7 +7,6 @@ $(document).ready(()=>{
     let hexa = '#';
 
         const randomize = ()=>{
-            var item = Math.floor(Math.random()*values.length);
             for(let i =0;i<6;i++){
                 var item = Math.floor(Math.random()*values.length);
                 hexa+=values[item]
