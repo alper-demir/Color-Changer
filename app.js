@@ -4,9 +4,8 @@ const html = document.getElementById('html');
 const copy = document.getElementById('copy');
 $(document).ready(()=>{
     let values = [1,2,3,4,5,6,7,8,9,'a','b','c','d','e','f']
-    let hexa = '#';
-
         const randomize = ()=>{
+            let hexa = '#';
             for(let i =0;i<6;i++){
                 var item = Math.floor(Math.random()*values.length);
                 hexa+=values[item]
@@ -17,7 +16,6 @@ $(document).ready(()=>{
     randomize()
     
     button.addEventListener('click',()=>{
-        hexa = '#'
         randomize()
     });
 
