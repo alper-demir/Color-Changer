@@ -36,3 +36,43 @@ i:hover{
     border-radius: 8px;
     display: none;
 }
+
+.inner-bg{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.inner-bg:hover{
+    cursor: pointer;
+}
+
+#history ul{
+    list-style: none;
+    position: relative;
+    right: 19.5px;
+    top: 10px;
+}
+
+#history ul li{
+    padding: 5px 0;
+}
+
+#history{
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    background-color: rgb(236, 228, 228);
+    border-radius: 10px;
+}
+
+#history a{
+    text-decoration: none;
+    color: black;
+}
+
+#history i { 
+    opacity: 0.8;
+}
+#history i:hover{
+    cursor: pointer;
+}
